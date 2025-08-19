@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#FAFAFA;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FAFAFA;
+    padding: 30px 50px;
+    
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.navlinksicons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 90vh;
+
+}
+
+
+
+.heroSectionTextcontainer h1 {
+    font-size: 60px;
+}
+
+.heroSectionTextcontainer button {
+    border: none;
+    padding: 1opx 20px;
+    width: 100px;
+    height: 30px;
+    background:#FD5545;
+    color: white;
+    margin: 10px 0
+}
+
+.buttomHerosection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttomHErobox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.buttomHErobox h1 {
+    color:#FD5545;
+    font-size: 40px;
+}
+
+
+
+.offercard {
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 30px;
+    padding: 10px;
+}
+
+
+
+.offercardbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.offercardbody h3 {
+    color: goldenrod;
+}
+
+.offercardheader {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+
+.offercardheader i {
+    font-size: 30px;
+}
+
+.offersection h1 {
+    text-align: center;
+    font-size: xx-large;
+    gap: 50px;
+}
+
+.offersection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+    ;
+    background-color: silver;
+   
+}
+
+.offercards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.collectioncard{
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    transition: all .5s ease;
+
+}
+
+.collectioncard:hover{
+    background: black;
+    color: white;
+}
+
+.collectioncardimage{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.shoescardheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoescardheader button{
+    border: none;
+}
+
+.collectionfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.collectionsection{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.collectionNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.collectioncards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Topitemsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 170px;
+}
+
+.topitemimagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    background-color: black;
+}
+
+.Topitemtextconatiner{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.topitemimage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.topitemimage img{
+    transform: rotate(-40deg);
+}
+
+.Topitemtextconatiner ul{
+    display: flex;
+    flex-direction: column;
+    list-style: decimal;
+    gap: 20px;
+}
+
+.Topitemtextconatiner h1{
+    font-size: 50px;
+}
+
+.Topitemtextconatiner h3{
+    margin: 10px o;
+}
+
+
+.aboutusheading{
+    font-size: 20px;
+    text-align: center;
+}
+
+.aboutusheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutuscard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 230PX;
+    background-color: whitesmoke;
+    gap: 20px;
+    padding: 20px;
+}
+
+.aboutuscardhead{
+    font-size: 20PX;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.aboutuscardhead i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutuscardhead p{
+    font-size: 15px;
+}
+
+.Aboutuscardbody{
+    font-size: 15px;
+}
+
+.aboutuscards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 60px;
+}
+
+.newslettersection{
+    padding: 10px 20px;
+    background-image: url(/assests/shoes3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    gap: 20px;
+   
+}
+
+.newsletterbody{
+    gap: 20px;
+}
+
+.newslettersections{
+   text-align: center;
+    padding: 50px;
+    color: white;
+    gap: 20px;
+    padding: 90px;
+    
+}
+
+.newlettersectiomheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletterform input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.newsforms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.submitform input{
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.shoefootersection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: white;
+    padding: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+    
+}
+
+footer{
+    background-color: white;
+}
+
+.shoeheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shoesimage{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sectionlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding-left: 10px;
+    padding-right: 90px; */
+    color:white;
+    gap: 20px;
+}
+
+.sectionlinks i{
+    background-color:red;
+    width: 30px;
+    text-align: center;
+
+}
+
+.Navbugger{
+    display: none;
+}
+
+.footersecioncard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footersecioncard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.shoefootersections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px;
+}
+
+.sectionbody{
+    padding: 10px;
+    gap: 20px;
+}
+
+.shoefootersection1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 210px;
+    height: 290px;
+    padding: 40px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .nav{
+        width: 100%;
+    }
+
+   .navlinks{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    padding: 20px;
+    transform: translateX(-300%);
+   }
+
+    .Navbugger{
+        display: block;
+    }
+    
+
+    .Topitemsection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .topitemimagecontainer{
+        width: max-content;
+        height: max-content;
+    }
+
+    .Topitemtextconatiner{
+        width: max-content;
+        height: max-content;
+    }
+
+    .submitform input{
+        width: 100%;
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+
+    .newsletterform input{
+        width: 100%;
+    }
+
+    .collectionsection{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+}
+
+    .heroSectionTextcontainer{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .heroSectionImgcontainer img{
+        width: 300px;
+    }
+
+    .shoefootersection{
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .buttomHerosection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
